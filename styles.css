@@ -132,3 +132,46 @@ p {
     background-color: #fff;
     color: #e6872d;
 }
+.main-premium {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+#memberh2 {
+    text-align: center;
+    display: block;
+}
+.main-premium-item {
+    margin: 20px 50px 20px 50px;
+    background-color: #e6872d;
+    padding:20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px lightgray;
+    
+}
+.premium-list {
+    list-style-type: disc;
+    
+}
+.main-premium a {
+    color: white;
+    text-decoration: none;
+}
+
+.plan-button {
+    background-color: #2568FB;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #eb9f57;
+}
+.main-premium-item:hover {
+    background-color: #2568FB;
+}
+.main-premium-item:hover .plan-button {
+    background-color: #e6872d;
+    color: white;
+    box-shadow: 2px 2px 2px #6695fc;
+}
