@@ -1,177 +1,198 @@
 body {
-    margin: 0px;
+  margin: 0px;
 }
-h1{
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+h1 {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
-    margin: 0px;
-    display: inline-block;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  display: inline-block;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .main-header {
-    background-color: white;
-    color: #2568FB;
-    padding: 2px 20px;
-    
+  background-color: white;
+  color: #2568fb;
+  padding: 2px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 .main-nav {
-    display: inline-block;
-    width: calc(100% - 120px);
-    text-align: right;
-    
+  display: inline-block;
+  width: calc(100% - 120px);
+  text-align: right;
 }
 
 .main-header-list {
-    margin: 0px;
-    display: inline-block;
-    width: calc(100%-100px);
+  margin: 0px;
+  display: inline-block;
+  width: calc(100%-100px);
 }
 .main-header-list-item {
-    display: inline-block;
-    
+  display: inline-block;
 }
 .list-button {
-    color: #2568FB ;
-    margin: 0px 30px;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+  color: #2568fb;
+  margin: 0px 30px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 .login-button {
-    background-color: #fff;
-    padding: 4px 8px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 2px #2568FB;
+  background-color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #2568fb;
 }
 .main-header-list-item a:hover {
-    background-color: #2568FB;
-    color: white;
-    padding: 8px 0px;
+  background-color: #2568fb;
+  color: white;
+  padding: 8px 0px;
 }
 .login-button a:hover {
-    color: #2568FB;
-    padding: 0px;
-    background-color: white;
-    
+  color: #2568fb;
+  padding: 0px;
+  background-color: white;
 }
 .main-body {
-    width: 100%;
-    height:100%;
+  width: 100%;
+  height: 100%;
 }
 .main-body-section {
-    background: url(images/home-bg.jpeg);
-    background-position: center;
-    height: 400px;
-    padding: 10px;
+  background: url(images/home-bg.jpeg);
+  background-position: center;
+  height: 400px;
+  padding: 10px;
+  position: relative;
 }
-.footer-title{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 24px;
+.main-body-section h1 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  margin: 0px;
+  transform: translate(-50%, 50%);
+}
+.footer-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
 }
 .footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .footer-content-item {
-    margin : 50px 20px;
-    text-align: center;
-    
+  margin: 50px 20px;
+  text-align: center;
 }
 p {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 .main-footer h2 {
-    display: block;
-    margin-top: 20px;
-    font-size: 24px;
+  display: block;
+  margin-top: 20px;
+  font-size: 24px;
 }
 .features {
-    display: flex;
-    flex-direction: row;
-    background-color: #2568FB;
-    color: white;
-    margin : 10px 0px
+  display: flex;
+  flex-direction: row;
+  background-color: #2568fb;
+  color: white;
+  margin: 10px 0px;
 }
 .features-item {
-    display: inline-block;
-    padding: 40px 40px;
-    width: calc(50% - 2px);
+  display: inline-block;
+  padding: 40px 40px;
+  width: calc(50% - 2px);
 }
 
 .features-item p {
-    margin-top: 50px;
-    font-size: 16px;
-    text-align: left;
-    margin-bottom: 10px;
+  margin-top: 50px;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 .features-image-bg {
-    height: 350px;
-    width: calc(50% - 2px);
-    background: url(images/features.jpeg);
-    background-position: top center;
-    background-size: cover;
+  height: 350px;
+  width: calc(50% - 2px);
+  background: url(images/features.jpeg);
+  background-position: top center;
+  background-size: cover;
 }
 .features a {
-    background-color: #e6872d;
-    padding: 8px 8px;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    margin: 20px 0px;
-    border-radius: 4px;
+  background-color: #e6872d;
+  padding: 8px 8px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0px;
+  border-radius: 4px;
 }
 .features a:hover {
-    background-color: #fff;
-    color: #e6872d;
+  background-color: #fff;
+  color: #e6872d;
 }
 .main-premium {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 #memberh2 {
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
 }
 .main-premium-item {
-    margin: 20px 50px 20px 50px;
+  margin: 20px 20px 20px 20px;
+  background-color: #fdf5ee;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(100, 100, 111, 0.2);
+  transition: box-shadow 0.3s;
+  height: 350px;
+}
+.Recommended-item {
+    position: relative;
+    top: -20px;
+    padding: 20px 20px 60px 20px;
     background-color: #e6872d;
-    padding:20px;
-    text-align: center;
     color: white;
-    border-radius: 8px;
-    box-shadow: 4px 4px 4px lightgray;
-    
+        
+}
+.Recommended-item a {
+    color: white!important;
 }
 .premium-list {
-    list-style-type: disc;
-    
+  list-style-type: disc;
 }
 .main-premium a {
-    color: white;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .plan-button {
-    background-color: #2568FB;
-    color: white;
-    padding: 7px 15px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 2px #eb9f57;
+  background-color: #2568fb;
+  color: white!important;
+  padding: 7px 15px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(100, 100, 111, 0.2);
+  display: block;
+  margin-top: 30px;
 }
 .main-premium-item:hover {
-    background-color: #2568FB;
+  box-shadow: 5px 5px 5px rgba(100, 100, 111, 0.5);
+  
 }
 .main-premium-item:hover .plan-button {
-    background-color: #e6872d;
-    color: white;
-    box-shadow: 2px 2px 2px #6695fc;
+  color: white;
+  box-shadow: 5px 5px 5px rgba(100, 100, 111, 0.5);
 }
