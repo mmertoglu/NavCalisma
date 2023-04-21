@@ -184,7 +184,7 @@ p {
   color: black;
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgba(100, 100, 111, 0.2);
-  transition: box-shadow 0.3s;
+  transition: all 0.3s;
   height: 350px;
 }
 .Recommended-item {
@@ -217,11 +217,13 @@ p {
 }
 .main-premium-item:hover {
   box-shadow: 5px 5px 5px rgba(100, 100, 111, 0.5);
+  transform: translateY(-10px);
   
 }
 .main-premium-item:hover .plan-button {
   color: white;
   box-shadow: 5px 5px 5px rgba(100, 100, 111, 0.5);
+  
 }
 .arrow-up {
   position: fixed;
@@ -245,15 +247,20 @@ html {
   background :linear-gradient(to bottom , #0553fa , #0442c8);
   justify-content: center;
   color: white;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
 .counter-section-item {
   margin: auto;
+  margin-top: 10px;
 }
 .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .film-card {
@@ -262,15 +269,37 @@ html {
   border-radius: 8px;
   box-shadow: 4px 4px 4px lightgray;
   text-align: center;
+  transition: all .6s;
 }
 
 .film-card-image {
   width: 100%;
   background-position: center;
   border-radius: 8px 8px 0 0;
+  max-height: 300px;
 }
 .film-card:hover {
   box-shadow: 8px 8px 4px lightgray;
-  margin: 20px 20px;
-  transition: margin .6s;
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.real-footer {
+  background-color: #274362;
+  height: 15vh;
+}
+
+.real-footer-container {
+  
+  margin: 10px auto;
+}
+.footer-text {
+  color:white;
+  margin:0 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.footer-icon {
+  margin: 0 5px;
+  font-size: 24px;
+  color: white;
 }
